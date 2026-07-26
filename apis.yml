@@ -1,8 +1,26 @@
 aid: drishti
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drishti.png
 name: Drishti
-description: 'Drishti is a company surfaced as a portfolio company of emergence-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Drishti was an AI and computer-vision company that turned manual assembly-line
+  activity into continuous streams of process data for discrete manufacturers. Cameras
+  securely streamed factory-floor video into proprietary neural networks that generated
+  cycle-time data and detected the sequence of human actions within each cycle, giving
+  plant teams system-wide visibility into variability, bottlenecks, and improvement
+  opportunities. Founded in 2017 in Mountain View, California and backed by Emergence
+  Capital, Drishti counted Ford, Honeywell, and Nissan among its customers before being
+  acquired by Apple in September 2023. The company operated no public developer API,
+  and all of its web and developer domains are now offline.'
 url: https://raw.githubusercontent.com/api-evangelist/drishti/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,24 @@ x-backed-by:
 - emergence-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: apple
+x-acquired: '2023-09'
+x-status-note: 'All Drishti domains (drishti.com and subdomains) no longer resolve;
+  no public developer API, OpenAPI, docs, SDK registry, or event surface exists to
+  enrich. Verified 2026-07-18 via DNS + web research.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Manufacturing
+- Computer Vision
+- Video Analytics
+- Assembly Line
+- Industrial
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.drishti.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
