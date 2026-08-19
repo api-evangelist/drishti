@@ -34,7 +34,7 @@ x-acquired: '2023-09'
 x-status-note: 'All Drishti domains (drishti.com and subdomains) no longer resolve;
   no public developer API, OpenAPI, docs, SDK registry, or event surface exists to
   enrich. Verified 2026-07-18 via DNS + web research.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
